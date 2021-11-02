@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <label class="label" for="login"> Log In
+    <label for="login"> Log In</label>
 
-    <form name="login-form" autocomplete="on">
-    <input type="name" placeholder="Name">
+    <form class="form" name="login-form" method="post" data-netlify="true" autocomplete="on"></form>
+    <label for="Name">Name</label>
+    <input type="text"  placeholder="Name">
+    <label for="age">Age</label>
     <input type="age" placeholder="Age">
+    <label for="email">Email</label>
     <input type="email" placeholder="email" required>
+    <label for="pass">Password</label>
     <input type="password" placeholder="password" required>
     <input type="submit">
 </form>
 
-</label>
+
 </body>
 </html>

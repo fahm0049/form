@@ -1,4 +1,7 @@
-.label {
+body{
+    background-color: rgb(159, 216, 216);
+}
+.form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr ;
 }
